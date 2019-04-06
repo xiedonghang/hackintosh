@@ -24,8 +24,9 @@
 
 
 
-
 ## 无法正常睡眠
+
+唤醒原因：
 
 
 ```shll
@@ -34,9 +35,45 @@ xies-mac:~ xie$ log show --style syslog | fgrep "Wake reason"
 2019-04-05 16:11:28.660172+0800  localhost kernel[0]: (AppleACPIPlatform) AppleACPIPlatformPower Wake reason: XDCI XHC
 ```
 
+电源管理信息：
+
+```shell
+xies-mac:~ xie$ pmset -g assertions
+2019-04-05 18:14:07 +0800
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   InternalPreventDisplaySleep    1
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 94(hidd): [0x0000002a000980a4] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle.4294969832.3"
+	Timeout will fire in 600 secs Action=TimeoutActionRelease
+   pid 53(powerd): [0x000000e8001081b4] 00:04:30 InternalPreventDisplaySleep named: "com.apple.powermanagement.delayDisplayOff"
+	Timeout will fire in 30 secs Action=TimeoutActionTurnOff
+Kernel Assertions: 0x104=USB,MAGICWAKE
+   id=500  level=255 0x4=USB mod= description=com.apple.usb.externaldevice.14400000 owner=USB2.0 Hub
+   id=503  level=255 0x4=USB mod= description=com.apple.usb.externaldevice.14200000 owner=USB Receiver
+   id=504  level=255 0x4=USB mod= description=com.apple.usb.externaldevice.14440000 owner=AURA MOTHERBOARD
+   id=506  level=255 0x100=MAGICWAKE mod= description=en0 owner=en0
+   id=507  level=255 0x4=USB mod= description=com.apple.usb.externaldevice.14100000 owner=IOUSBHostDevice
+   id=508  level=255 0x4=USB mod= description=com.apple.usb.externaldevice.14410000 owner=H115i Platinum
+Idle sleep preventers: IODisplayWrangler
+xies-mac:~ xie$
+```
+
+处理：
+
+1. 海盗船CPU水泵USB数据采集，导致睡眠唤醒； —屏蔽该USB端口
+2. 机械键盘和Mac不兼容，导致睡眠唤醒；--更换键盘
 
 
-## 注入声卡ID
+
+## 声卡驱动问题，注入声卡ID
 
 ```xml
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
@@ -50,7 +87,7 @@ xies-mac:~ xie$ log show --style syslog | fgrep "Wake reason"
 
 
 
-## 注入显卡ID
+## 显示卡7m问题, 注入显卡ID
 
 ```xml
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
