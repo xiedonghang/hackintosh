@@ -157,7 +157,7 @@
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					R0ZYMA==
@@ -290,7 +290,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi debug=0x100 -disablegfxfirmware</string>
+		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi debug=0x100 -disablegfxfirmware darkwake=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
@@ -489,6 +489,8 @@
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
+		<key>Theme</key>
+		<string>SimpleThemeDark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -1029,9 +1031,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<data>
-		B6/c3F+h
-		</data>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>

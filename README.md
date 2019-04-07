@@ -184,7 +184,7 @@ xies-mac:~ xie$
 ```xml
 	<key>IOKitPersonalities</key>
 	<dict>
-    <!-- 添加以下内容 -->
+		<!-- 添加以下内容 -->
 		<key>Intel.VirtualSMC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
