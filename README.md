@@ -71,8 +71,6 @@ xies-mac:~ xie$
 1. 海盗船CPU水泵USB数据采集，导致睡眠唤醒； —屏蔽该USB端口
 2. 机械键盘和Mac不兼容，导致睡眠唤醒；--更换键盘
 
-
-
 ## 声卡驱动问题，注入声卡ID
 
 ```xml
@@ -178,4 +176,28 @@ xies-mac:~ xie$
 				</data>
 			</dict>
 ```
+
+## 蓝牙问题
+
+在 VirtualSMC.kext  (/Volumes/EFI/EFI/CLOVER/kexts/Other/VirtualSMC.kext/Contents/Info.plist) IOKitPersonalities节点下注入USB蓝牙信息
+
+```xml
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Intel.VirtualSMC</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOClass</key>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>2730</integer>
+			<key>idVendor</key>
+			<integer>32903</integer>
+		</dict>
+```
+
+
 
