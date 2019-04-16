@@ -2,6 +2,7 @@
 
 
 
+
 ```shell
                                       xies mac iMac19,1
                                       ----------------------------------------------
@@ -21,6 +22,33 @@
          ####     #####               扩展显示 : 1920 x 1080 (1080p FHD - Full High Definition)
 
 ```
+
+
+1. CPU : INTEL i9 - 9900K
+
+2. M/B：Asus *ROG Strix Z390-E* Gaming
+
+3. Graphic： Intel (Z390) UHD 630 2G
+
+4. Memory： Corsair Vengeance RGB Black PRO 16GB (2 x 8GB) DDR4 3200MHz
+
+5. SSD：Samsung 970 EVO 512GB
+
+6. CASE：Normal
+
+7. Power：CORSAIR RMx Series RM850x
+
+8. Wireless Lan： 
+
+9. Bluetooth： 
+
+
+**worked**
+
+- [x] USB 
+- [ ] WiFi
+- [x] Bluetooth
+- [x] Graphic
 
 
 
