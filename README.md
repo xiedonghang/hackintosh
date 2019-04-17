@@ -43,12 +43,29 @@
 9. Bluetooth： 
 
 
-**worked**
+**Everything Works**
 
-- [x] USB 
-- [ ] WiFi
-- [x] Bluetooth
+- [ ] Continuity:
+  - Handoff
+  - iMessage
+  - Continuity Camera
+  - Universal Clipboard
+  - Instant Hotspot
+  - Air Drop
+  - iPhone Cellular Calls
+  - Auto Unlock
+  - Apple Pay
+
 - [x] Graphic
+- [x] Sleep
+- [x] Power Nap
+- [x] Wake
+- [x] Audio
+- [x] Ethernet
+- [x] Bluetooth
+- [ ] WiFi
+- [ ] All USB and USB 3.1 ports
+- [x] Nightshift
 
 
 
