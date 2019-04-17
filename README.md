@@ -26,21 +26,26 @@
 
 1. CPU : INTEL i9 - 9900K
 
-2. M/B：Asus *ROG Strix Z390-E* Gaming
+2. M/B：Asus ROG Strix Z390-E Gaming
 
-3. Graphic： Intel (Z390) UHD 630 2G
+3. Graphic： Intel UHD Graphics 630
 
 4. Memory： Corsair Vengeance RGB Black PRO 16GB (2 x 8GB) DDR4 3200MHz
 
 5. SSD：Samsung 970 EVO 512GB
 
-6. CASE：Normal
+6. CASE：九州风神 方舟SE电脑机箱
 
 7. Power：CORSAIR RMx Series RM850x
 
-8. Wireless Lan： 
+8. Wireless Lan：Intel® Wireless-AC 9560
 
-9. Bluetooth： 
+9. Bluetooth：Intel® Bluetooth® 5.0
+
+10. Ethernet：Intel® I219V
+
+11. Audio：ROG SupremeFX 8 声道 高清晰音频编码解码器S1220A 
+
 
 
 **Everything Works**
