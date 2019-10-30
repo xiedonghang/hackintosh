@@ -2,7 +2,7 @@
 
 
 
-## macOS Catalina 10.15 (19A602)
+## macOS Catalina 版本10.15.1（版号19B88）
 
 
 ![about](about.png)
