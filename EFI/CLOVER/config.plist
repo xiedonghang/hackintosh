@@ -237,6 +237,8 @@
 	</array>
 	<key>GUI</key>
 	<dict>
+		<key>EmbeddedThemeType</key>
+		<string>Dark</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
@@ -245,7 +247,7 @@
 			<string>Windows</string>
 		</array>
 		<key>Language</key>
-		<string>en:0</string>
+		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -262,14 +264,16 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<true/>
-			<key>Linux</key>
 			<false/>
+			<key>Linux</key>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>black_green</string>
+		<string>SimpleThemeDark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -285,7 +289,7 @@
 		<key>NvidiaSingle</key>
 		<false/>
 		<key>ig-platform-id</key>
-		<string>0x3E9B0007</string>
+		<string>0x3E980003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -365,7 +369,7 @@
 				<key>Comment</key>
 				<string>USB Port limit patch #2/2 10.15.x (credit DalianSky)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/kPDw==
@@ -385,7 +389,7 @@
 				<key>Comment</key>
 				<string>USB Port limit patch #1/2 10.15.x (credit DalianSky)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPDw==
