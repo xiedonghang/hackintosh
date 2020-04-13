@@ -429,7 +429,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02907902GULNV9CB</string>
+		<string>C02940902GULNV9UE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -461,9 +461,9 @@
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02Y8KZ6JV3Q</string>
+		<string>C02ZH0JBJV3Q</string>
 		<key>SmUUID</key>
-		<string>96F9B95F-2B2B-4226-ABAF-57E0504BC1C5</string>
+		<string>C187929A-DB58-4FEC-9E29-F72CCBA44205</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -472,7 +472,7 @@
 		<key>#BacklightLevel</key>
 		<integer>0</integer>
 		<key>CustomUUID</key>
-		<string>021DE93D-4CB2-4E4A-AADE-A671534EA20B</string>
+		<string>0806023D-2CB4-4DFB-89A9-F4C9B40EC6CD</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 	</dict>
