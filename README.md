@@ -2,19 +2,19 @@
 
 
 
-## macOS Catalina 版本10.15.3
+## macOS Catalina 版本10.15.6
 
 ![about](about.png)
 
 ## Clover EFI
 
-Installer version: v2.5k r5103 EFI bootloader
+Installer version: r5119 (commit: 0f5da727e) EFI bootloader
 
 
 
 ## 主机配置信息：
 
-```
+```properties
 CPU : INTEL i9-9900K
 M/B : Asus ROG Strix Z390-E Gaming
 Graphic : Intel UHD Graphics 630 / 蓝宝石RX580 8G白金版显卡
@@ -27,22 +27,3 @@ Bluetooth : Intel® Bluetooth® 5.0
 Ethernet : Intel® I219V
 Audio : ROG SupremeFX 8 声道 高清晰音频编码解码器S1220A
 ```
-
-
-
-## 声卡驱动问题，注入声卡ID
-
-```xml
-<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-<dict>
-	<key>layout-id</key>
-	<data>
-	AwAAAA==
-	</data>
-</dict>
-```
-
-
-
-
-
