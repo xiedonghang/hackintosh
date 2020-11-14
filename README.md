@@ -2,13 +2,13 @@
 
 
 
-## macOS Catalina 版本10.15.6
+## macOS Big Sur 版本11.0.1
 
 ![about](about.png)
 
-## Clover EFI
+## OpenCore
 
-Installer version: r5119 (commit: 0f5da727e) EFI bootloader
+OpenCore-0.6.3-RELEASE
 
 
 
@@ -27,3 +27,8 @@ Bluetooth : Intel® Bluetooth® 5.0
 Ethernet : Intel® I219V
 Audio : ROG SupremeFX 8 声道 高清晰音频编码解码器S1220A
 ```
+
+
+
+注：使用OC引导10.15.7后，正常升级11.0.1
+
