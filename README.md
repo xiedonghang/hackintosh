@@ -4,7 +4,7 @@
 
 ## macOS Big Sur 版本11.0.1
 
-![about](about.png)
+![about](assets/about.png)
 
 ## OpenCore
 
@@ -30,5 +30,13 @@ Audio : ROG SupremeFX 8 声道 高清晰音频编码解码器S1220A
 
 
 
-注：使用OC引导10.15.7后，正常升级11.0.1，蓝牙暂时不可能。
+
+
+注：使用OC引导10.15.7后，正常升级11.0.1，板载英特尔蓝牙、无线可正常使用，开启核显加速。
+
+
+
+USB 接口定制：
+
+![usb](assets/usb.png)
 
