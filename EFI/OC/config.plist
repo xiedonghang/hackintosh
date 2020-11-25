@@ -159,7 +159,7 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<key>#PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Build in</string>
@@ -170,7 +170,7 @@
 				<key>model</key>
 				<string>Realtek ALCS1220A</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AwCYPg==</data>
