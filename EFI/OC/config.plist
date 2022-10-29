@@ -129,21 +129,10 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
-                <dict>
-                    <key>AAPL,ig-platform-id</key>
-                    <data>AwCRPg==</data>
-                    <key>AAPL,slot-name</key>
-                    <string>Built-In</string>
-                    <key>model</key>
-                    <string>Intel UHD 630 (for computing tasks)</string>
-                </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
-                    <key>#AAPL,ig-platform-id</key>
-                    <data>AACbPg==</data>
                     <key>AAPL,ig-platform-id</key>
-                    <data>BwCbPg==</data>
+                    <data>AwCYPg==</data>
                     <key>AAPL,slot-name</key>
                     <string>Built-In</string>
                     <key>framebuffer-patch-enable</key>
