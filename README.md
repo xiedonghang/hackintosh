@@ -1,6 +1,6 @@
 ## macOS Ventura 版本13.0
 
-![about](assets/about.png)
+![about](assets/about_13.0.png)
 
 ## OpenCore & Kext
 
