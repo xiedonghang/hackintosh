@@ -1,25 +1,24 @@
-## macOS Ventura 版本13.0
+## macOS Sonoma 版本14.0
 
-![about](assets/about_13.0.png)
+![about](assets/about_14.0.png)
 
 ## OpenCore & Kext
 
-`OpenCore-0.8.5`
+`OpenCore-0.9.5`
 
  | Name | Version |
  | ------ |----- |
- | Lilu.kext | V1.6.2 |
- | VirtualSMC.kext | V1.3.0 |
- | WhateverGreen.kext | V1.6.1 |
- | SMCProcessor.kext | V1.3.0 | 
- | SMCSuperIO.kext | V1.3.0 | 
- | AppleALC.kext | V1.7.5 |
- | CPUFriend.kext | V1.2.6 | 
+ | Lilu.kext | V1.6.7 |
+ | VirtualSMC.kext | V1.3.2 |
+ | WhateverGreen.kext | V1.6.6 |
+ | SMCProcessor.kext | V1.3.2 | 
+ | SMCSuperIO.kext | V1.3.2 | 
+ | AppleALC.kext | V1.8.6 |
  | IntelMausi.kext | V1.0.7 | 
  | USBPorts.kext | V1.0 | 
  | IntelBluetoothFirmware.kext | V2.3.0 |
- | BlueToolFixup.kext | V2.6.4 |
- | AirportItlwm.kext | V2.2.0 | 
+ | BlueToolFixup.kext | V2.6.8 |
+ | AirportItlwm.kext | V2.3.0 | 
 
 
 ## 部分硬件信息：
