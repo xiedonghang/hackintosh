@@ -1,23 +1,23 @@
-## macOS Sonoma 版本14.4
+## macOS Sequoia (15.0)
 
-![about](assets/about_14.4.png)
+![about](assets/about_15.0.png)
 
 ## OpenCore & Kext
 
  | Name | Version |
  | ------ |---------|
- | OpenCore | 0.9.8   |
- | Lilu.kext | 1.6.7   |
- | VirtualSMC.kext | 1.3.2   |
- | WhateverGreen.kext | 1.6.6   |
- | SMCProcessor.kext | 1.3.2   | 
- | SMCSuperIO.kext | 1.3.2   | 
- | AppleALC.kext | 1.8.9   |
- | IntelMausi.kext | 1.0.7   | 
+ | OpenCore | 1.0.1   |
+ | Lilu.kext | 1.6.9   |
+ | VirtualSMC.kext | 1.3.4   |
+ | WhateverGreen.kext | 1.6.8   |
+ | SMCProcessor.kext | 1.3.4   | 
+ | SMCSuperIO.kext | 1.3.4   | 
+ | AppleALC.kext | 1.9.2   |
+ | IntelMausi.kext | 1.0.8   | 
  | USBPorts.kext | 1.0     | 
- | IntelBluetoothFirmware.kext | 2.4.0   |
- | BlueToolFixup.kext | 2.6.8   |
- | AirportItlwm.kext | 2.3.0   | 
+ | IntelBluetoothFirmware.kext | 2.5.0 ❌ |
+ | BlueToolFixup.kext | 2.6.8 ❌  |
+ | AirportItlwm.kext | 2.3.0 ❌  | 
 
 
 ## 部分硬件信息：
