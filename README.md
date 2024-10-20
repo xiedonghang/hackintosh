@@ -14,11 +14,13 @@
  | SMCSuperIO.kext | 1.3.4   | 
  | AppleALC.kext | 1.9.2   |
  | IntelMausi.kext | 1.0.8   | 
- | USBPorts.kext | 1.0     | 
- | IntelBluetoothFirmware.kext | 2.5.0 ❌ |
- | BlueToolFixup.kext | 2.6.8 ❌  |
+ | USBPorts.kext | 1.0     |
+ | BlueToolFixup.kext | 2.6.9   |
+ | IntelBluetoothFirmware.kext | 2.5.0   |
+ | IntelBTPatcher.kext | 2.5.0   |
  | AirportItlwm.kext | 2.3.0 ❌  | 
 
+  _Wi-Fi is not available right now_
 
 ## 部分硬件信息：
 
